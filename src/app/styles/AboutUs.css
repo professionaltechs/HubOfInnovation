@@ -1,0 +1,145 @@
+.AboutUsBanner {
+  background: url("../Images/aboutusBg.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsBanner > h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Jost" !important;
+  font-weight: 700;
+}
+.AboutUsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 150px 90px;
+  font-family: "Jost" !important;
+}
+.AboutUsContainerHeading {
+  width: 30%;
+}
+.AboutUsContainerContent {
+  width: 30%;
+}
+.AboutUsContainerHeading > h1 {
+  color: #1f1f1f;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 45px;
+  margin-top: 20px;
+}
+.AboutUsContainerHeading > p {
+  color: #565658;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+.AboutUsContainerContent > p {
+  color: #565658;
+  font-size: 18px;
+  font-weight: 500;
+}
+.AboutUsPortfolioSection{
+    background: url("../Images/aboutusPortfolioBg.jpg");
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
+  font-family: "Jost" !important;
+  padding: 0px 150px;
+
+}
+.AboutUsPortfolioSectionDetails{
+    width: 40%;
+}
+.AboutUsPortfolioSectionDetails>h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.AboutUsPortfolioSectionDetails>p{
+    font-size: 20px;
+    color: #333333;
+}
+@media(max-width:1200px){
+  .AboutUsContainerHeading > p {
+    font-size: 16px;
+  }
+  .AboutUsContainerHeading > h1 {
+    font-size: 30px;
+  }
+  .AboutUsContainerContent > p {
+    font-size: 15px;
+  }
+  .AboutUsContainer {
+    padding: 120px 40px;
+  }
+}
+@media(max-width:1024px){
+  .AboutUsContainerHeading > p {
+    font-size: 14px;
+  }
+  .AboutUsContainerHeading > h1 {
+    font-size: 25px;
+  }
+  .AboutUsContainerContent > p {
+    font-size: 13px;
+  }
+  .AboutUsContainer {
+    padding: 100px 30px;
+  }
+  .AboutUsPortfolioSectionDetails>h1 {
+    font-size: 40px;  
+  }
+  .AboutUsPortfolioSection {
+    padding: 0px 110px;
+  }
+  .AboutUsPortfolioSectionDetails>p {
+    font-size: 16px;
+  }
+}
+@media(max-width:768px){
+  .AboutUsBanner > h1 {
+    font-size: 50px;
+  }
+  .AboutUsContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .AboutUsContainerHeading {
+    width: 100%;
+  }
+  .AboutUsContainerContent {
+    width: 100%;
+  }
+  .AboutUsContainer {
+    padding: 100px;
+  }
+  .AboutUsPortfolioSection {
+    align-items: center;
+  }
+  .AboutUsPortfolioSectionDetails {
+    width: 100%;
+  }
+}
+@media(max-width:425px){
+  .AboutUsContainer {
+  padding: 100px 40px;
+  }
+  .AboutUsPortfolioSection {
+    padding: 0px 40px;
+  }
+}

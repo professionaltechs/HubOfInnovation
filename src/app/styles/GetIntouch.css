@@ -1,0 +1,88 @@
+.GetInTouchSection {
+  background: url(../Images/getintouchBg.jpg);
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jost", sans-serif !important;
+  text-transform: capitalize;
+  color: #fff;
+}
+.GetInTouchSection > h1 {
+  font-size: 110px;
+  font-weight: 900;
+}
+.GetInTouchDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom left;
+  transition: transform 0.45s ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+@media (max-width: 1270px) {
+    .underline-animation{
+        font-size: 60px;
+    }
+    .GetInTouchSection > h1 {
+       font-size: 90px;
+    font-weight:900; 
+    }
+}
+@media (max-width: 1024px) {
+  .GetInTouchSection > h1 {
+    font-size: 70px;
+  }
+  .underline-animation {
+    font-size: 45px;
+  }
+  .GetInTouchDetails{
+    gap: 70px;
+  }
+}
+@media (max-width: 768px) {
+    .GetInTouchSection{
+        padding: 0px 20px;
+    }
+    .GetInTouchSection > h1 {
+      font-size: 50px;
+      font-weight: 900;
+      text-align: center;
+    }
+    .underline-animation {
+      font-size: 30px;
+    }
+    .GetInTouchDetails{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+  }
+  
