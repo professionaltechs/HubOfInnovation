@@ -12,9 +12,10 @@
     text-transform: uppercase;
 }
 .HomeSection>h1>span{
-    font-size:52px;
-    color: #241644;
-    font-weight: 900;
+    font-size:65px;
+    /* color: #241644; */
+    color: #D42147;
+    font-weight: 400;
     font-family: "Jost", sans-serif !important;
 
 }

@@ -1,0 +1,180 @@
+.ContactUsSection {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jost", sans-serif !important;
+}
+.ContactUsDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContactUsDetails > h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  line-height: 45px;
+  text-shadow: 3px 3px 5px rgb(31, 31, 31);
+  transition: 0.4s;
+}
+
+.ContactUsInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContactUsInputs > input {
+  padding: 16px 39px;
+  line-height: 24px;
+  font-size: 15px;
+  border: none;
+  color: #424242;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  cursor: pointer;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+  margin: 0px 15px;
+  width: 279px;
+}
+.ContactUsInputs > input:focus {
+  outline: none;
+  border-bottom: rgb(31, 31, 31) 1px solid;
+  border-radius: 0px;
+}
+.ContactUsInputs > input::placeholder {
+  color: #424242;
+}
+.ContactUsMessageContainer > textarea {
+  width: 588.5px;
+  height: 150px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #424242;
+  background-color: #f7f7f7;
+  padding: 16px 39px;
+  resize: none;
+  border: none;
+  margin: 30px 0px 15px 0px;
+}
+.ContactUsMessageContainer > textarea:focus {
+  outline: none;
+  border-bottom: rgb(31, 31, 31) 1px solid;
+  border-radius: 0px;
+}
+.ContactUsMessageContainer > textarea::placeholder {
+  color: #424242;
+}
+button {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 15px 30px;
+  background: rgba(0, 0, 0, 0.144);
+  background-color: #f7f7f7;
+}
+span {
+  display: block;
+  padding: 15px 50px;
+}
+button::before,
+button::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000;
+}
+
+span::before,
+span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000;
+}
+button:hover::before,
+button:hover::after {
+  width: 100%;
+}
+button:hover span::before,
+button:hover span::after {
+  height: 100%;
+}
+.btn-6::before {
+  left: 50%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.btn-6::after {
+  left: 50%;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.btn-6 span::before {
+  left: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.btn-6 span::after {
+  right: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.btn-6:hover::before,
+.btn-6:hover::after {
+  left: 0;
+}
+.btn-6:hover span::before,
+.btn-6:hover span::after {
+  top: 0;
+}
+@media (max-width: 768px) {
+  .ContactUsInputs {
+    flex-direction: column;
+    width: 100%;
+  }
+  .ContactUsSection {
+    padding: 0px 100px;
+  }
+  .ContactUsMessageContainer > textarea {
+    width: 100%;
+  }
+  .ContactUsInputs > input {
+    width: 100%;
+    margin: 15px;
+  }
+  .ContactUsDetails {
+    width: 100%;
+  }
+  .ContactUsMessageContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 557px) {
+    .ContactUsDetails > h1 {
+        font-size: 35px;
+    }
+    .ContactUsSection {
+        padding: 0px 30px;
+      }
+      span {
+        padding: 15px 30px;
+      }
+      button {
+      
+    font-size: 15px;
+}
+.ContactUsInputs > input {
+    padding: 15px 28px;
+}
+}

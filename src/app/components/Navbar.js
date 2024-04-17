@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
 
             <Link href="/GetInTouch"><p className="hover-underline-animation">get in touch.</p></Link>
-            <p className="hover-underline-animation">contact us.</p>
+            <Link href="/Contactus"><p className="hover-underline-animation">contact us.</p></Link>
           </div>
           <div className="MobileNavbarIcon">
             <div className="BarIcon" onClick={handleClick}>
@@ -90,7 +90,7 @@ const Navbar = () => {
               </div>
             </div>
             <Link href="/GetInTouch"><p className="hover-underline-animation">get in touch.</p></Link>
-            <p className="hover-underline-animation">contact us.</p>
+            <Link href="/Contactus"><p className="hover-underline-animation">contact us.</p></Link>
           </div>
         </div>
       </div>

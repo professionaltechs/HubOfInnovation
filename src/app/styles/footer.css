@@ -22,6 +22,7 @@
   font-size: 50px;
   margin: 0px 50px;
   cursor: pointer;
+  text-align: center;
 }
 .FooterPagesLinks {
   font-size: 15px;
@@ -111,5 +112,6 @@
   }
   .FooterTopDetails > h1{
     font-size: 28px;
+    text-align: center;
   }
 }

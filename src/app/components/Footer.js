@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
           <h1>Hub Of Innovation</h1>
           <Link href="/GetInTouch"><p className="FooterPagesLinks">Get in Touch.</p></Link>
-          <Link href="/"><p className="FooterPagesLinks">contact us.</p></Link>
+          <Link href="/Contactus"><p className="FooterPagesLinks">contact us.</p></Link>
         </div>
         <div className="Line"></div>
         <div className="SocialLinks">
@@ -40,7 +40,7 @@ const Footer = () => {
             <p className="FooterMobilePagesLinks">about us.</p>
           </Link>
           <Link href="/GetInTouch"><p className="FooterMobilePagesLinks">Get in Touch.</p></Link>
-          <Link href="/"><p className="FooterMobilePagesLinks">contact us.</p></Link>
+          <Link href="/Contactus"><p className="FooterMobilePagesLinks">contact us.</p></Link>
           </div>
         </div>
       </div>
