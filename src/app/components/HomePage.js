@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import * as styles from "../styles/HomePage.css";
 
@@ -18,19 +20,24 @@ import art14 from "../Images/art14.jpg";
 import art15 from "../Images/art15.jpg";
 
 import Image from "next/image";
-// import lightGallery from "lightgallery";
+import LightGallery from "lightgallery/react";
 
-// // Plugins
-// import lgThumbnail from "lightgallery/plugins/thumbnail";
-// import lgZoom from "lightgallery/plugins/zoom";
+// import styles
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+
+// import plugins if you need
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 
 const HomePage = () => {
-//   lightGallery(document.getElementById('lightgallery'), {
-//     plugins: [lgZoom, lgThumbnail],
-//     speed: 500,
-//     licenseKey: 'your_license_key'
-    
-// });
+  //   lightGallery(document.getElementById('lightgallery'), {
+  //     plugins: [lgZoom, lgThumbnail],
+  //     speed: 500,
+  //     licenseKey: 'your_license_key'
+
+  // });
   return (
     <>
       <div className="HomeSection">
@@ -38,11 +45,17 @@ const HomePage = () => {
           <span>U</span>nveiling Our Latest Creations
         </h1>
         <div className="HomeSectionContainer">
-          {/* <div id="lightgallery">
-            <a href={art1} data-lg-size="1600-2400">
-              <img alt=".." src={art2} />
-            </a>
-          </div> */}
+          <div className="ImageBox">
+            ِ
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art1.jpg">
+                <Image alt="" src={art2} />
+              </a>
+              <a href="art1.jpg">
+                <Image alt="" src={art10} />
+              </a>
+            </LightGallery>
+          </div>
 
           <div className="ImageBox">
             <Image src={art1} width={0} height={0} sizes="100vw" />
