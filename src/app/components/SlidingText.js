@@ -18,77 +18,111 @@ import vector13 from "../Images/vector13.jpeg";
 const SlidingText = () => {
   return (
     <>
-      <div className="wrapperContainer">
-        <div className="wrapper">
-          <div className="items">
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector2.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector3.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector4.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector5.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector6.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector7.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector8.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector9.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector10.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector11.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector12.src})` }}
-            ></div>
-            <div
-              className="item"
-              tabindex="0"
-              style={{ backgroundImage: `url(${vector13.src})` }}
-            ></div>
-          </div>
+ 
+    <div>
+      <div className="wrapper">
+        <div className="items">
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector2.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector3.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector4.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector5.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector6.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector7.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector8.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector9.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector10.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector11.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector12.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector13.src})` }}
+          ></div>
         </div>
       </div>
+
+
+      <div className="MobileWrapper">
+        <div className="items MobileItems">
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector2.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector3.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector4.src})` }}
+          ></div>
+          <div
+            className="item"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector5.src})` }}
+          ></div>
+
+        </div>
+      </div>
+      </div>   
+      
     </>
   );
 };
