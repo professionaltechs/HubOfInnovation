@@ -45,7 +45,6 @@ const Navbar = () => {
           </h1>
           <div className="NavbarItems">
             <Link href="/">
-              
               <p className="hover-underline-animation">home.</p>
             </Link>
             <Link href="/aboutus">
@@ -56,19 +55,45 @@ const Navbar = () => {
               <div className="DropDown">
                 <div className="DropDownContainer">
                   <ul>
-                    <li>Logos </li>
-                    <li>Banner</li>
-                    <li>2D Model</li>
-                    <li>3D Model</li>
-                    <li>2D Animation</li>
-                    <li>3D Animation</li>
-                    <li>Static Overlay</li>
-                    <li>Animated Overlay</li>
-                    <li>Emotes</li>
-                    <li>PFP's</li>
-                    <li>NFT's</li>
-                    <li>Illustration</li>
-                    <li>Subbages</li>
+                    <Link href="/Portfolio/Logos">
+                      <li>Logos </li>
+                    </Link>
+                    <Link href="/Portfolio/banner">
+                      <li>Banner</li>
+                    </Link>
+                    <Link href="/Portfolio/Model2D">
+                      <li>2D Model</li>
+                    </Link>
+                    <Link href="/Portfolio/Model3D">
+                      <li>3D Model</li>
+                    </Link>
+                    <Link href="/Portfolio/Animation2D">
+                      <li>2D Animation</li>
+                    </Link>
+                    <Link href="/Portfolio/Animation3D">
+                      <li>3D Animation</li>
+                    </Link>
+                    <Link href="/Portfolio/StaticOverlay">
+                      <li>Static Overlay</li>
+                    </Link>
+                    <Link href="/Portfolio/AnimatedOverlay">
+                      <li>Animated Overlay</li>
+                    </Link>
+                    <Link href="/Portfolio/Emotes">
+                      <li>Emotes</li>
+                    </Link>
+                    <Link href="/Portfolio/Pfp">
+                      <li>PFP's</li>
+                    </Link>
+                    <Link href="/Portfolio/Nft">
+                      <li>NFT's</li>
+                    </Link>
+                    <Link href="/Portfolio/Illustration">
+                      <li>Illustration</li>
+                    </Link>
+                    <Link href="/Portfolio/Subbadges">
+                      <li>Subbages</li>
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -100,19 +125,45 @@ const Navbar = () => {
             <div className="MobileDropDown">
               <div className="MobileDropDownContainer">
                 <ul>
-                  <li>Logos </li>
-                  <li>Banner</li>
-                  <li>2D Model</li>
-                  <li>3D Model</li>
-                  <li>2D Animation</li>
-                  <li>3D Animation</li>
-                  <li>Static Overlay</li>
-                  <li>Animated Overlay</li>
-                  <li>Emotes</li>
-                  <li>PFP's</li>
-                  <li>NFT's</li>
-                  <li>Illustration</li>
-                  <li>Subbages</li>
+                  <Link href="/Portfolio/Logos">
+                    <li>Logos </li>
+                  </Link>
+                  <Link href="/Portfolio/banner">
+                    <li>Banner</li>
+                  </Link>
+                  <Link href="/Portfolio/Model2D">
+                    <li>2D Model</li>
+                  </Link>
+                  <Link href="/Portfolio/Model3D">
+                    <li>3D Model</li>
+                  </Link>
+                  <Link href="/Portfolio/Animation2D">
+                    <li>2D Animation</li>
+                  </Link>
+                  <Link href="/Portfolio/Animation3D">
+                    <li>3D Animation</li>
+                  </Link>
+                  <Link href="/Portfolio/StaticOverlay">
+                    <li>Static Overlay</li>
+                  </Link>
+                  <Link href="/Portfolio/AnimatedOverlay">
+                    <li>Animated Overlay</li>
+                  </Link>
+                  <Link href="/Portfolio/Emotes">
+                    <li>Emotes</li>
+                  </Link>
+                  <Link href="/Portfolio/Pfp">
+                    <li>PFP's</li>
+                  </Link>
+                  <Link href="/Portfolio/Nft">
+                    <li>NFT's</li>
+                  </Link>
+                  <Link href="/Portfolio/Illustration">
+                    <li>Illustration</li>
+                  </Link>
+                  <Link href="/Portfolio/Subbadges">
+                    <li>Subbages</li>
+                  </Link>
                 </ul>
               </div>
             </div>

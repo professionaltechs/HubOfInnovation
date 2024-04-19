@@ -80,13 +80,13 @@
   z-index: 10;
 }
 .DropDown > .DropDownContainer > ul > li {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   line-height: 30px;
   cursor: pointer;
   width: fit-content;
 }
-.DropDown > ul > li:hover {
+.DropDown >.DropDownContainer > ul > li :hover {
   color: #cecece;
 }
 .PortfolioDropDown:hover > .DropDown {

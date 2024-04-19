@@ -1,0 +1,26 @@
+.PortfolioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.PortfolioSectionTopHead {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 25px 50px;
+}
+.PortfolioSectionTopHead > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+}
+.PortfolioCard{
+    width: 480px;
+    height: auto;
+}
+.PortfolioCardImage{
+    width: 100%;
+    height: auto;
+}
