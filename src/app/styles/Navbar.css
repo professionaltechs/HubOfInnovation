@@ -8,16 +8,23 @@
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   font-family: "Jost", sans-serif !important;
-
+/* background:#141414; */
   font-weight: 400;
-  color: #222222;
+  /* color: #D42147; */
+  color: #000000;
   padding: 30px 50px;
+  /* padding: 15px 50px; */
+  /* margin-bottom: 50px; */
+  
 }
 .NavbarContainer > h1 {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 28px;
   cursor: pointer;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
 }
 .NavbarItems {
   display: flex;
@@ -42,7 +49,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #222222;
+  background-color: #000000;
   border-radius: 50px;
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
@@ -187,3 +194,12 @@
 #panel {
   display: none;
 }
+/* .logo{
+  width: 100px;
+  height: 100px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

@@ -1,4 +1,6 @@
-import React from "react";
+'use client'
+
+import React, { useEffect, useRef } from "react";
 import * as styles from "../styles/SlidingText.css";
 import Image from "next/image";
 import vector from "../Images/vector.jpeg";
@@ -16,6 +18,7 @@ import vector12 from "../Images/vector12.jpeg";
 import vector13 from "../Images/vector13.jpeg";
 
 const SlidingText = () => {
+
   return (
     <>
  
@@ -94,29 +97,29 @@ const SlidingText = () => {
       <div className="MobileWrapper">
         <div className="items MobileItems">
           <div
-            className="item"
+            className="item updateItem"
             tabindex="0"
             style={{ backgroundImage: `url(${vector.src})` }}
           ></div>
           <div
-            className="item"
+            className="item updateItem" 
             tabindex="0"
             style={{ backgroundImage: `url(${vector2.src})` }}
           ></div>
           <div
-            className="item"
+            className="item updateItem"
             tabindex="0"
             style={{ backgroundImage: `url(${vector3.src})` }}
           ></div>
           <div
-            className="item"
-            tabindex="0"
-            style={{ backgroundImage: `url(${vector4.src})` }}
-          ></div>
-          <div
-            className="item"
+            className="item updateItem"
             tabindex="0"
             style={{ backgroundImage: `url(${vector5.src})` }}
+          ></div>
+          <div
+            className="item updateItem"
+            tabindex="0"
+            style={{ backgroundImage: `url(${vector8.src})` }}
           ></div>
 
         </div>

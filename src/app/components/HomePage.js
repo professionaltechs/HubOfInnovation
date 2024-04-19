@@ -41,24 +41,25 @@ const HomePage = () => {
   return (
     <>
       <div className="HomeSection">
+        <div className="ExploreBox">
+          <p>Discover Your Creative Canvas : Unveil Exclusive Art Deals Now!</p>
+        <button class="ExploreBtn">
+            <span className="SpanExplore"> Explore </span>
+          </button>
+        </div>
+
+        
         <h1>
           <span>U</span>nveiling Our Latest Creations
         </h1>
         <div className="HomeSectionContainer">
           <div className="ImageBox">
-            ِ
             <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+
               <a href="art1.jpg">
-                <Image alt="" src={art2} />
-              </a>
-              <a href="art1.jpg">
-                <Image alt="" src={art10} />
+                <Image alt="" src={art1} />
               </a>
             </LightGallery>
-          </div>
-
-          <div className="ImageBox">
-            <Image src={art1} width={0} height={0} sizes="100vw" />
           </div>
           <div className="ImageBox">
             <Image src={art2} width={0} height={0} sizes="100vw" />

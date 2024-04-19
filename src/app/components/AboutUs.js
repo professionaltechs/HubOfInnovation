@@ -10,36 +10,39 @@ const AboutUs = () => {
       <div className="AboutUsContainer">
         <div className="AboutUsContainerHeading">
           <p>Something about us</p>
-          <h1>We are Amaz8, design studio in NY</h1>
+          <h1>We are Amaz8, design studio in HI</h1>
         </div>
         <div className="AboutUsContainerContent">
           <p>
-            Du is sed odio sit amet nibh vul putat cue sie at sitm amet ma uris.
-            Morbi ac cum san ip su velite. Na etu nec tel lus a odio tin cid unt
-            au tor a or nare odio. Se diu non ma ris vit ae Duis se odio sit
-            amet nibh vue lp tate cursus at sit edu. Na eti su nec tel lus a
-            odio tin cidunt auctoi a or nar odi se dius nis ma.
+            Welcome to Hub of Innovation, We are a dynamic team of designers. Our mission is
+            simple: to transform your ideas into compelling Whether
+            you're seeking a captivating logo, engaging banners, or immersive
+            brand experiences, we're here to turn your dreams into reality. Join
+            us at the forefront of design evolution and let's embark on a
+            journey of creativity, collaboration, and unparalleled excellence.
           </p>
         </div>
         <div className="AboutUsContainerContent">
           <p>
-            Du is sed odio sit amet nibh vul putat cue sie at sitm amet ma uris.
-            Morbi ac cum san ip su velite. Na etu nec tel lus a odio tin cid unt
-            au tor a or nare odio. Se diu non ma ris vit ae Duis se odio sit
-            amet nibh vue lp tate cursus at sit edu. Na eti su nec tel lus a
-            odio tin cidunt auctoi a or nar odi se dius nis ma.
+            At Hub of Innovation, creativity is at the heart of everything we
+            do. We are a passionate team of graphic designers, artists, and
+            innovators. From sleek logos to captivating banners and
+            everything in between, we specialize in turning ideas into visually
+            stunning realities. At Hub of Innovation, we're not just designers;
+            we're partners on your journey to success. Let's create something
+            extraordinary together.
           </p>
         </div>
       </div>
       <div className="AboutUsPortfolioSection">
         <div className="AboutUsPortfolioSectionDetails">
-        <h1>Our portfolio</h1>
-        <p>
-          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-          accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-        </p>
+          <h1>Our portfolio</h1>
+          <p>
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+            ornare
+          </p>
         </div>
-     
       </div>
     </>
   );

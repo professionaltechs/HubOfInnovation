@@ -4,16 +4,18 @@ import React from "react";
 import * as styles from "../styles/Navbar.css";
 import { FaBarsStaggered } from "react-icons/fa6";
 import Link from "next/link";
+import Image from "next/image";
+import hilogo from "../Images/hilogo.png";
 
 const Navbar = () => {
   function handleClick() {
     const hidingElem = document.getElementsByClassName("MobileNavbar")[0];
     if (hidingElem.clientHeight == 0) {
       const requiredHeight = hidingElem.firstChild.clientHeight;
-      hidingElem.style.height = `${requiredHeight}px`
-      return
+      hidingElem.style.height = `${requiredHeight}px`;
+      return;
     }
-    hidingElem.style.height = `0px`;  
+    hidingElem.style.height = `0px`;
   }
   // function Click() {
   //   const hidingElem = document.getElementsByClassName("MobileDropDown")[0];
@@ -22,17 +24,33 @@ const Navbar = () => {
   //     hidingElem.style.height = `${requiredHeight}px`
   //     return
   //   }
-  //   hidingElem.style.height = `0px`;  
+  //   hidingElem.style.height = `0px`;
   // }
 
   return (
     <>
       <div className="NavbarSection">
         <div className="NavbarContainer">
-          <h1>hub of innovation</h1>
+          <h1>
+            {/* <span>
+              <Image
+                src={hilogo}
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="logo"
+              />
+            </span> */}
+            hub of innovation
+          </h1>
           <div className="NavbarItems">
-            <Link href="/"> <p className="hover-underline-animation">home.</p></Link>
-           <Link href="/aboutus"><p className="hover-underline-animation">about us.</p></Link> 
+            <Link href="/">
+              
+              <p className="hover-underline-animation">home.</p>
+            </Link>
+            <Link href="/aboutus">
+              <p className="hover-underline-animation">about us.</p>
+            </Link>
             <div className="PortfolioDropDown">
               <p className="hover-underline-animation Portfolio">portfolio.</p>
               <div className="DropDown">
@@ -56,8 +74,12 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Link href="/GetInTouch"><p className="hover-underline-animation">get in touch.</p></Link>
-            <Link href="/Contactus"><p className="hover-underline-animation">contact us.</p></Link>
+            <Link href="/GetInTouch">
+              <p className="hover-underline-animation">get in touch.</p>
+            </Link>
+            <Link href="/Contactus">
+              <p className="hover-underline-animation">contact us.</p>
+            </Link>
           </div>
           <div className="MobileNavbarIcon">
             <div className="BarIcon" onClick={handleClick}>
@@ -67,9 +89,14 @@ const Navbar = () => {
         </div>
         <div className="MobileNavbar">
           <div className="MobileNavbarDetails">
-          <Link href="/"> <p className="hover-underline-animation">home.</p></Link>
-           <Link href="/aboutus"><p className="hover-underline-animation">about us.</p></Link> 
-            <p className="hover-underline-animation" >portfolio.</p>
+            <Link href="/">
+              {" "}
+              <p className="hover-underline-animation">home.</p>
+            </Link>
+            <Link href="/aboutus">
+              <p className="hover-underline-animation">about us.</p>
+            </Link>
+            <p className="hover-underline-animation">portfolio.</p>
             <div className="MobileDropDown">
               <div className="MobileDropDownContainer">
                 <ul>
@@ -89,8 +116,12 @@ const Navbar = () => {
                 </ul>
               </div>
             </div>
-            <Link href="/GetInTouch"><p className="hover-underline-animation">get in touch.</p></Link>
-            <Link href="/Contactus"><p className="hover-underline-animation">contact us.</p></Link>
+            <Link href="/GetInTouch">
+              <p className="hover-underline-animation">get in touch.</p>
+            </Link>
+            <Link href="/Contactus">
+              <p className="hover-underline-animation">contact us.</p>
+            </Link>
           </div>
         </div>
       </div>

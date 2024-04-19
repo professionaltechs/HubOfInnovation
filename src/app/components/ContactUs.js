@@ -19,7 +19,7 @@ const ContactUs = () => {
             ></textarea>
           </div>
           <button class="btn-6">
-            <span> Send Message</span>
+            <span className="spanbtn"> Send Message</span>
           </button>
         </div>
       </div>
