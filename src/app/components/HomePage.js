@@ -2,6 +2,7 @@
 
 import React from "react";
 import * as styles from "../styles/HomePage.css";
+import Link from "next/link";
 
 import art1 from "../Images/art1.jpg";
 import art2 from "../Images/art2.jpeg";
@@ -18,6 +19,7 @@ import art12 from "../Images/art12.jpg";
 import art13 from "../Images/art13.jpg";
 import art14 from "../Images/art14.jpg";
 import art15 from "../Images/art15.jpg";
+import logo from "../Images/hilogo.png";
 
 import Image from "next/image";
 import LightGallery from "lightgallery/react";
@@ -55,13 +57,15 @@ const HomePage = () => {
           <div className="infotop">
             Discover Your Creative Canvas : Unveil Exclusive Art Deals Now!
             <div className="name">
-              <button class="cta">
-                <span>Explore</span>
-                <svg width="15px" height="10px" viewBox="0 0 13 10">
-                  <path d="M1,5 L11,5"></path>
-                  <polyline points="8 1 12 5 8 9"></polyline>
-                </svg>
-              </button>
+              <Link href="/Deals">
+                <button class="cta">
+                  <span>Explore</span>
+                  <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

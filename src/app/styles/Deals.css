@@ -1,0 +1,171 @@
+.dealsSection{
+    width: 100%;
+   min-height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 100px 0;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* align-items: start; */
+  }
+  
+  
+  .CardContainer{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    position: relative;
+    width: 300px !important;
+    height:600px;
+    background: linear-gradient(-45deg, #fe0847, #feae3f);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 10px 40px 10px;
+    
+  
+    transition: 0.5s;
+  }
+  .tick{
+    color: #FFBF00;
+  }
+  @media (max-width:1024px){
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+    .PremiumCard{
+      width: 350px !important;
+    }
+  }
+  @media (max-width:768px){
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-evenly;
+      /* align-items: start; */
+    }
+    .PremiumCard{
+      width: 300px !important;
+    }
+  }
+  @media (max-width:350px){
+    .card{
+      padding: 30px 10px 40px 10px;
+      width: 280px !important;
+    }
+  }
+  .card:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 15px;
+    box-shadow:rgb(255, 255, 255) 0px 0px 15px;
+    -webkit-transition: 0.5s;
+  }
+  .col-sm-4:nth-child(1) .card,
+  .col-sm-4:nth-child(1) .card .title .fa {
+    background: linear-gradient(109.6deg,rgb(63, 61, 61)  11.2%, rgba(0, 0, 0, 0.93) 78.9%);
+  
+  }
+  .col-sm-4:nth-child(2) .card,
+  .col-sm-4:nth-child(2) .card .title .fa {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  }
+  .col-sm-4:nth-child(3) .card,
+  .col-sm-4:nth-child(3) .card .title .fa {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  
+    
+  
+  }
+  /* .card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    -webkit-transform: skewY(-5deg) scale(1.5);
+    transform: skewY(-5deg) scale(1.5);
+  } */
+  .title .fa {
+    color: #fff;
+    font-size: 20px !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title h2 {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 25px;
+    z-index: 2;
+  }
+  .price,
+  .option {
+    position: relative;
+    z-index: 2;
+  }
+  .price h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 50px;
+  }
+  .option ul {
+    margin: 0;
+    padding: 0;
+  }
+  .option ul li {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .OptionFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .card a {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    color: black;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+    margin: 20px auto 0;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .card a:hover {
+    text-decoration: none;
+  }
