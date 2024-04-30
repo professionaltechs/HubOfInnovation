@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useCallback, useState } from "react";
 import * as styles from "../styles/Navbar.css";
 import { FaBarsStaggered } from "react-icons/fa6";
 import Link from "next/link";
@@ -8,24 +8,31 @@ import Image from "next/image";
 import hilogo from "../Images/hilogo.png";
 
 const Navbar = () => {
-  function handleClick() {
+
+  const handleClick = useCallback(() => {
     const hidingElem = document.getElementsByClassName("MobileNavbar")[0];
     if (hidingElem.clientHeight == 0) {
       const requiredHeight = hidingElem.firstChild.clientHeight;
       hidingElem.style.height = `${requiredHeight}px`;
-      return;
+      return; 
     }
     hidingElem.style.height = `0px`;
+  });
+
+  const handlePortfolioDropdown = ()=>{
+    const portfolioDropdown = document.getElementsByClassName("MobileDropDown")[0]
+    const hidingElem = document.getElementsByClassName("MobileNavbar")[0];
+    if(portfolioDropdown.style.height === "0px"){
+      portfolioDropdown.style.height = portfolioDropdown.firstChild.scrollHeight + "px";
+      const requiredHeight = hidingElem.firstChild.scrollHeight + portfolioDropdown.firstChild.scrollHeight;
+      hidingElem.style.height = `${requiredHeight}px`;
+    }else{
+      portfolioDropdown.style.height = '0px';
+      const requiredHeight = 170;
+      hidingElem.style.height = `${requiredHeight}px`;
+    }
   }
-  // function Click() {
-  //   const hidingElem = document.getElementsByClassName("MobileDropDown")[0];
-  //   if (hidingElem.clientHeight == 0) {
-  //     const requiredHeight = hidingElem.firstChild.clientHeight;
-  //     hidingElem.style.height = `${requiredHeight}px`
-  //     return
-  //   }
-  //   hidingElem.style.height = `0px`;
-  // }
+
 
   return (
     <>
@@ -121,8 +128,8 @@ const Navbar = () => {
             <Link href="/aboutus">
               <p className="hover-underline-animation">about us.</p>
             </Link>
-            <p className="hover-underline-animation">portfolio.</p>
-            <div className="MobileDropDown">
+            <p className="hover-underline-animation" onClick={handlePortfolioDropdown}>portfolio.</p>
+            <div className="MobileDropDown" style={{height: '0px', overflow: 'hidden'}}>
               <div className="MobileDropDownContainer">
                 <ul>
                   <Link href="/Portfolio/Logos">

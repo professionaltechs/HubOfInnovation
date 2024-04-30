@@ -186,10 +186,10 @@
   color: #949494;
   transition: 0.3s !important;
 }
-/* .MobileDropDown {
-  height: 0px;
+.MobileDropDown {
   overflow: hidden;
-} */
+  transition: all 400ms;
+}
 
 #panel {
   display: none;
