@@ -17,10 +17,10 @@
   font-family: "Jost", sans-serif !important;
 }
 .PortfolioCard{
-    width: 480px;
-    height: auto;
+    width: 450px;
+    height:500px;
 }
 .PortfolioCardImage{
     width: 100%;
-    height: auto;
+    height: 500px;
 }

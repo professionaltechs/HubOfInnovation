@@ -23,12 +23,12 @@ const Footer = () => {
         <div className="SocialLinks">
           <p>Follow us on social networks:</p>
           <div className="Links">
-            <div className="LinkIconBox">
+            <Link href="https://www.behance.net/hubofinnovation" target='blank'><div className="LinkIconBox">
               <FaBehance className="LinkIcons" />
-            </div>
-            <div className="LinkIconBox">
+            </div></Link>
+            <Link href="https://x.com/hubofinnovation?t=laksvKZ0JgQwS4R8O8PP7w&s=09" target='blank'><div className="LinkIconBox">
               <FaXTwitter className="LinkIcons" />
-            </div>
+            </div></Link>
           </div>
         </div>
         <div className="MobileFooter">

@@ -1,9 +1,11 @@
 .AboutUsBanner {
   background: url("../Images/xxx.jpg");
+  background: url("../Images/NEWBG.png");
   height: 50vh;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,14 +54,14 @@
 }
 .AboutUsPortfolioSection{
     background: url("../Images/banner-01.jpg");
-    height: 60vh;
+    height: 50vh !important;
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items:end;
+    align-items: center;
   font-family: "Jost" !important;
   padding: 0px 150px;
   color: #fff ;
@@ -110,6 +112,8 @@
   }
   .AboutUsPortfolioSection {
     padding: 0px 110px;
+    background-size: contain;
+
   }
   .AboutUsPortfolioSectionDetails>p {
     font-size: 16px;
@@ -138,6 +142,15 @@
   .AboutUsPortfolioSectionDetails {
     width: 100%;
   }
+
+}
+@media(max-width:560px){
+  .AboutUsPortfolioSectionDetails>p {
+    font-size: 11px;
+  }
+  .AboutUsPortfolioSectionDetails>h1 {
+    font-size:25px;  
+  }
 }
 @media(max-width:425px){
   .AboutUsContainer {
@@ -146,4 +159,17 @@
   .AboutUsPortfolioSection {
     padding: 0px 40px;
   }
+  .AboutUsBanner{
+    background-size: contain;
+    justify-content: start;
+    padding-left: 50px;
+   
+  }
+  .AboutUsPortfolioSectionDetails>p {
+    font-size: 10px;
+  }
+  .AboutUsPortfolioSectionDetails>h1 {
+    font-size:20px;  
+  }
+  
 }
