@@ -194,12 +194,12 @@
 #panel {
   display: none;
 }
-/* .logo{
+.logo{
   width: 100px;
   height: 100px;
-  background: #000;
+  /* background: #000; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}

@@ -54,13 +54,13 @@
 }
 .AboutUsPortfolioSection{
     background: url("../Images/banner-01.jpg");
-    height: 50vh !important;
+    height: 50vh ;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   font-family: "Jost" !important;
   padding: 0px 150px;
@@ -138,18 +138,36 @@
   }
   .AboutUsPortfolioSection {
     align-items: center;
+    display: flex;
+    justify-content: end;
+    padding: 0px 30px;
+    height: 35vh;
+    /* width: 100% !important; */
   }
   .AboutUsPortfolioSectionDetails {
-    width: 100%;
+    width: 50%;
+  }
+  .AboutUsPortfolioSectionDetails>p {
+    font-size: 11px;
+  }
+  .AboutUsPortfolioSectionDetails>h1 {
+    font-size:25px;  
   }
 
 }
 @media(max-width:560px){
   .AboutUsPortfolioSectionDetails>p {
     font-size: 11px;
+    line-height: 13px;
+
   }
   .AboutUsPortfolioSectionDetails>h1 {
     font-size:25px;  
+  }
+  .AboutUsPortfolioSection {
+    padding: 0px 15px;
+    height: 25vh;
+    
   }
 }
 @media(max-width:425px){
@@ -157,7 +175,9 @@
   padding: 100px 40px;
   }
   .AboutUsPortfolioSection {
-    padding: 0px 40px;
+    padding: 0px 2px;
+    height: 20vh;
+    
   }
   .AboutUsBanner{
     background-size: contain;
@@ -167,6 +187,7 @@
   }
   .AboutUsPortfolioSectionDetails>p {
     font-size: 10px;
+    line-height: 10px;
   }
   .AboutUsPortfolioSectionDetails>h1 {
     font-size:20px;  

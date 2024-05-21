@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="NavbarSection">
         <div className="NavbarContainer">
           <h1>
-            {/* <span>
+            <span>
               <Image
                 src={hilogo}
                 width={0}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 sizes="100vw"
                 className="logo"
               />
-            </span> */}
+            </span>
             hub of innovation
           </h1>
           <div className="NavbarItems">
