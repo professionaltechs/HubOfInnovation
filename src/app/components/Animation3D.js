@@ -71,7 +71,7 @@ const Animation3D = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#480807'
+          backgroundColor: '#8173C4'
         }}>
             {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
             <video width="450" height="500px" controls  >

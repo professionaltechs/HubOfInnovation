@@ -52,7 +52,7 @@ const Animation2D = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#4E3F37'
+          backgroundColor: '#C71C48'
         }}>
             {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
             <video width="450" height="500px" controls  >
@@ -63,7 +63,7 @@ const Animation2D = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#916293'
+          backgroundColor: '#4B4245'
         }}>
             {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
             <video width="450" height="500px" controls  >
@@ -74,7 +74,7 @@ const Animation2D = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#480807'
+          backgroundColor: '#7D84A0'
         }}>
             {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
             <video width="450" height="500px" controls  >
