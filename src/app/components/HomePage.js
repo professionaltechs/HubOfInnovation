@@ -82,46 +82,102 @@ const HomePage = () => {
             </LightGallery>
           </div>
           <div className="ImageBox">
-            <Image src={art2} width={0} height={0} sizes="100vw" />
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art2.jpeg">
+                <Image alt="" src={art2} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art3.jpg">
+                <Image alt="" src={art3} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art4.jpg">
+                <Image alt="" src={art4} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art5.jpg">
+                <Image alt="" src={art5} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art6.jpg">
+                <Image alt="" src={art6} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art7.jpeg">
+                <Image alt="" src={art7} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art8.jpg">
+                <Image alt="" src={art8} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art9.jpg">
+                <Image alt="" src={art9} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art10.jpg">
+                <Image alt="" src={art10} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art11.jpg">
+                <Image alt="" src={art11} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art12.jpg">
+                <Image alt="" src={art12} />
+              </a>
+            </LightGallery>
+          </div>
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art13.jpg">
+                <Image alt="" src={art13} />
+              </a>
+            </LightGallery>
           </div>
           <div className="ImageBox">
-            <Image src={art3} width={0} height={0} sizes="100vw" />
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art14.jpg">
+                <Image alt="" src={art14} />
+              </a>
+            </LightGallery>
           </div>
-          <div className="ImageBox">
-            <Image src={art4} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art5} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art6} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art7} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art8} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art9} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art10} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art11} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art12} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art13} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art14} width={0} height={0} sizes="100vw" />
-          </div>
-          <div className="ImageBox">
-            <Image src={art15} width={0} height={0} sizes="100vw" />
+           <div className="ImageBox">
+            <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+              <a href="art15.jpg">
+                <Image alt="" src={art15} />
+              </a>
+            </LightGallery>
           </div>
         </div>
       </div>
