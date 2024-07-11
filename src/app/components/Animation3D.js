@@ -1,7 +1,6 @@
 import React from "react";
 import * as styles from "../styles/Portfolio.css";
 import art1 from "../Images/art1.jpg";
-// import art1 from "../Images/ao.mp4";
 import Image from "next/image";
 const Animation3D = () => {
   return (

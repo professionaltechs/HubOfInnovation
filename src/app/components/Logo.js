@@ -28,13 +28,13 @@ const Logo = () => {
         <h1>Logos</h1>
       </div> 
       <div className="PortfolioContainer">
-      <div className="PortfolioCard">
+      {/* <div className="PortfolioCard">
             <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
               <a href="logo3.PNG">
                 <Image alt="" src={logo3} />
               </a>
             </LightGallery>
-          </div>
+          </div> */}
         <div className="PortfolioCard">
           <Image src={logo3} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         </div>
