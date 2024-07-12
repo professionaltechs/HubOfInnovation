@@ -14,66 +14,66 @@ const AnimatedOverlay = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#FFC182'
+        backgroundColor:'#00C5F4'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation1.mp4" type="video/mp4" />
+          <source src="/animatedoverlay1.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#7AAEFB'
+        backgroundColor: '#51EC49'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation2.mp4" type="video/mp4" />
+          <source src="/animatedoverlay2.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#40696D'
+        backgroundColor: '#000000'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation3.mp4" type="video/mp4" />
+          <source src="/animatedoverlay3.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#4E3F37'
+        backgroundColor: '#9519D1'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation4.mp4" type="video/mp4" />
+          <source src="/animatedoverlay4.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#916293'
+        backgroundColor: '#AE1C20'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation5.mp4" type="video/mp4" />
+          <source src="/animatedoverlay5.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#8173C4'
+        backgroundColor: '#8A6D0E'
       }}>
         {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
         <video width="450" height="500px" controls  >
-          <source src="/3danimation6.mp4" type="video/mp4" />
+          <source src="/animatedoverlay6.mp4" type="video/mp4" />
         </video>
       </div>
 
