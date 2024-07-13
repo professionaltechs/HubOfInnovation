@@ -3,7 +3,7 @@ import * as styles from "../styles/Portfolio.css";
 import pfp1 from "../Images/pfp1.jpg";
 import pfp2 from "../Images/pfp2.jpg";
 import pfp3 from "../Images/pfp3.jpg";
-import pfp4 from "../Images/pfp4.png";
+import pfp4 from "../Images/pfp4.jpg";
 import pfp5 from "../Images/pfp5.jpg";
 import pfp6 from "../Images/pfp6.jpg";
 import Image from "next/image";
