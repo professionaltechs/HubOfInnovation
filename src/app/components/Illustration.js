@@ -1,8 +1,8 @@
 import React from 'react'
 import * as styles from "../styles/Portfolio.css";
 // import art1 from "../Images/art1.jpg";
-import illustration1 from "../Images/illustration1.png";
-import illustration2 from "../Images/illustration2.png";
+import illustration1 from "../Images/illustration1.jpg";
+import illustration2 from "../Images/illustration2.jpg";
 import illustration3 from "../Images/illustration3.jpg";
 import illustration4 from "../Images/illustration4.png";
 import illustration5 from "../Images/illustration5.png";

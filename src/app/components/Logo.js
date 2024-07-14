@@ -2,7 +2,7 @@
 
 import React from "react";
 import * as styles from "../styles/Portfolio.css";
-import logo3 from "../Images/logo3.PNG";
+import logo3 from "../Images/logo3.jpg";
 import logo7 from "../Images/logo7.jpg";
 import logo1 from "../Images/logo1.jpg";
 import logo9 from "../Images/logo9.jpg"
