@@ -5,7 +5,7 @@ import * as styles from "../styles/Navbar.css";
 import { FaBarsStaggered } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
-import hilogo from "../Images/hilogo.png";
+import hilogo from "../Images/hublogo.png";
 
 const Navbar = () => {
 
@@ -38,6 +38,7 @@ const Navbar = () => {
     <>
       <div className="NavbarSection">
         <div className="NavbarContainer">
+        
           <h1>
             <span>
               <Image
