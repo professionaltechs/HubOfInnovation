@@ -38,9 +38,11 @@ const AboutUs = () => {
         <div className="AboutUsPortfolioSectionDetails">
           <h1>Our portfolio</h1>
           <p>
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare
+            A digital art portfolio is crucial for attracting clients
+            and employers by showcasing an artist's skill in creating
+            captivating digital works. Digital art, a versatile and innovative medium,
+            includes practices like digital painting, illustration, 3D modeling,
+            and interactive installations.
           </p>
         </div>
       </div>
