@@ -85,4 +85,41 @@
         margin-top: 20px;
     }
   }
+  .child {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    margin: 0 5px;
+ 
+  }
   
+  .child:hover {
+    background-color: white;
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+    transform: perspective(180px) rotateX(60deg) translateY(2px);
+    box-shadow: 0px 10px 10px #ff0000;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 80px;
+    transition: 0.4s;
+  }
+  
+  .button:hover {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 0px, 30px) perspective(180px) rotateX(-65deg) translateY(5px);
+    border-radius: 50%;
+    transition: 0.4s;
+  }
