@@ -3,19 +3,19 @@
 import React, { useEffect, useRef } from "react";
 import * as styles from "../styles/SlidingText.css";
 import Image from "next/image";
-import vector from "../Images/vector.jpeg";
-import vector2 from "..//Images/vector2.jpeg";
-import vector3 from "../Images/vector3.jpeg";
-import vector4 from "../Images/vector4.jpeg";
-import vector5 from "../Images/vector5.jpeg";
-import vector6 from "../Images/vector6.jpeg";
-import vector7 from "../Images/vector7.jpeg";
-import vector8 from "../Images/vector8.jpeg";
-import vector9 from "../Images/vector9.jpeg";
-import vector10 from "../Images/vector10.jpeg";
-import vector11 from "../Images/vector11.jpeg";
-import vector12 from "../Images/vector12.jpeg";
-import vector13 from "../Images/vector13.jpeg";
+import vector from "../Images/vector.jpg";
+import vector2 from "..//Images/vector2.jpg";
+import vector3 from "../Images/vector3.jpg";
+import vector4 from "../Images/vector4.jpg";
+import vector5 from "../Images/vector5.jpg";
+import vector6 from "../Images/vector6.jpg";
+import vector7 from "../Images/vector7.jpg";
+import vector8 from "../Images/vector8.jpg";
+import vector9 from "../Images/vector9.jpg";
+import vector10 from "../Images/vector10.jpg";
+import vector11 from "../Images/vector11.jpg";
+import vector12 from "../Images/vector12.jpg";
+import vector13 from "../Images/vector13.jpg";
 
 const SlidingText = () => {
 

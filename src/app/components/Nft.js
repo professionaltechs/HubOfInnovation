@@ -6,7 +6,6 @@ import nft3 from "../Images/nft's3.jpg";
 import nft4 from "../Images/nft's4.jpg";
 import nft5 from "../Images/nft's5.jpg";
 import nft6 from "../Images/nft's6.jpg";
-import nft7 from "../Images/nft's7.png";
 import Image from "next/image";
 
 const Nft = () => {
@@ -32,7 +31,7 @@ const Nft = () => {
         <Image src={nft5} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
       </div>
       <div className="PortfolioCard">
-        <Image src={nft7} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
+        <Image src={nft6} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
       </div>
     </div>
   </div></>
