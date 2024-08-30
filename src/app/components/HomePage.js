@@ -55,7 +55,7 @@ const HomePage = () => {
           <div className="wave"></div>
           <div className="wave"></div>
           <div className="infotop">
-            Discover Your Creative Canvas : Unveil Exclusive Art Deals Now!
+            Discover Your Creative Canvas : Unveil Exclusive Art Deals Now !
             <div className="name">
               <Link href="/Deals">
                 <button class="cta">
