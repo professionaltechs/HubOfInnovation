@@ -1,10 +1,10 @@
 import React from 'react'
 import * as styles from "../styles/Portfolio.css";
-import OS1 from "../Images/overlaystatic1.png";
-import OS2 from "../Images/overlaystatic2.png";
+import OS1 from "../Images/overlaystatic1.jpg";
+import OS2 from "../Images/overlaystatic2.jpg";
 import OS3 from "../Images/overlaystatic3.jpg";
 import OS4 from "../Images/overlaystatic4.jpg";
-import OS5 from "../Images/overlaystatic5.jpg";
+import OS5 from "../Images/overlaystatic5.png";
 import OS6 from "../Images/overlaystatic6.jpg";
 import Image from "next/image";
 
