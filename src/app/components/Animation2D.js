@@ -10,80 +10,85 @@ import Image from "next/image";
 const Animation2D = () => {
   return (
     <>
-<div className="PortFolioSection">
-      <div className="PortfolioSectionTopHead">
-        <h1>2D Animation</h1>
-      </div>
-<div className="PortfolioContainer">
-          <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor:'#FFC182'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+      <div className="PortFolioSection">
+        <div className="PortfolioSectionTopHead">
+          <h1>2D Animation</h1>
+        </div>
+        <div className="PortfolioContainer">
+        <div className="Comingsoon">
+            <h1>
+              Coming soon
+            </h1>
+          </div>
+          {/* <div className="PortfolioCard" style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#FFC182'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation1.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#7AAEFB'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#7AAEFB'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation2.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#40696D'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#40696D'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation3.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#C71C48'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#C71C48'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation4.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#4B4245'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#4B4245'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation5.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="PortfolioCard" style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          backgroundColor: '#7D84A0'
-        }}>
-            {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#7D84A0'
+          }}>
+            <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
             <video width="450" height="500px" controls  >
               <source src="/2danimation6.mp4" type="video/mp4" />
             </video>
-          </div>
+          </div> */}
 
         </div>
-        </div>
+      </div>
     </>
   );
 };

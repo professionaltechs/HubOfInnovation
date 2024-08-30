@@ -1,10 +1,10 @@
 import React from 'react'
 import * as styles from "../styles/Portfolio.css";
-import badge1 from "../Images/badge1.jpg";
+import badge1 from "../Images/badge1.png";
 import badge2 from "../Images/badge2.jpg";
-import badge3 from "../Images/badge3.png";
-import badge4 from "../Images/badge4.png";
-import badge5 from "../Images/badge5.png";
+import badge3 from "../Images/badge3.jpg";
+import badge4 from "../Images/badge4.jpg";
+import badge5 from "../Images/badge5.jpg";
 import badge6 from "../Images/badge6.jpg";
 import Image from "next/image";
 

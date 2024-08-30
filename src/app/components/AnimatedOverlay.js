@@ -10,13 +10,18 @@ const AnimatedOverlay = () => {
       <h1> Animated Overlay</h1>
     </div>
     <div className="PortfolioContainer">
-      <div className="PortfolioCard" style={{
+    <div className="Comingsoon">
+            <h1>
+              Coming soon
+            </h1>
+          </div>
+      {/* <div className="PortfolioCard" style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor:'#00C5F4'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay1.mp4" type="video/mp4" />
         </video>
@@ -27,7 +32,7 @@ const AnimatedOverlay = () => {
         justifyContent: 'center',
         backgroundColor: '#51EC49'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay2.mp4" type="video/mp4" />
         </video>
@@ -38,7 +43,7 @@ const AnimatedOverlay = () => {
         justifyContent: 'center',
         backgroundColor: '#000000'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay3.mp4" type="video/mp4" />
         </video>
@@ -49,7 +54,7 @@ const AnimatedOverlay = () => {
         justifyContent: 'center',
         backgroundColor: '#9519D1'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay4.mp4" type="video/mp4" />
         </video>
@@ -60,7 +65,7 @@ const AnimatedOverlay = () => {
         justifyContent: 'center',
         backgroundColor: '#AE1C20'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay5.mp4" type="video/mp4" />
         </video>
@@ -71,11 +76,11 @@ const AnimatedOverlay = () => {
         justifyContent: 'center',
         backgroundColor: '#8A6D0E'
       }}>
-        {/* <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/> */}
+        <Image src={art1} width={0} height={0} sizes="100vw" className="PortfolioCardImage"/>
         <video width="450" height="500px" controls  >
           <source src="/animatedoverlay6.mp4" type="video/mp4" />
         </video>
-      </div>
+      </div> */}
 
     </div>
   </div></>
