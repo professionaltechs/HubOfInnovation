@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
+      
       <meta name="p:domain_verify" content="465c43d35b71192355f4e6d3ba74df08" />
       <link rel="icon" href="/hilogo.png" sizes="any" />
       <body className={inter.className}>{children}</body>
