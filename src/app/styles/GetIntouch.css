@@ -85,7 +85,7 @@
         margin-top: 20px;
     }
   }
-  .child {
+  /* .child {
     width: 100px;
     height: 100px;
     display: flex;
@@ -122,4 +122,4 @@
     transform: translate3d(0px, 0px, 30px) perspective(180px) rotateX(-65deg) translateY(5px);
     border-radius: 50%;
     transition: 0.4s;
-  }
+  } */

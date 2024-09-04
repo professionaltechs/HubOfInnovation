@@ -38,8 +38,8 @@ const Navbar = () => {
     <>
       <div className="NavbarSection">
         <div className="NavbarContainer">
-        
-          <h1>
+        <Link href="/">
+          <h1 className="NavbarContainerMainHeading">
             <span>
               <Image
                 src={hilogo}
@@ -50,7 +50,7 @@ const Navbar = () => {
               />
             </span>
             hub of innovation
-          </h1>
+          </h1></Link>
           <div className="NavbarItems">
             <Link href="/">
               <p className="hover-underline-animation">home.</p>

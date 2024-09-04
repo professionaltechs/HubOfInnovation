@@ -17,7 +17,7 @@
   /* margin-bottom: 50px; */
   
 }
-.NavbarContainer > h1 {
+.NavbarContainerMainHeading {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 28px;
@@ -138,7 +138,7 @@
     width: 40px;
     font-size: 18px;
   }
-  .NavbarContainer > h1 {
+  .NavbarContainerMainHeading{
     font-size: 22px;
   }
   .NavbarContainer {

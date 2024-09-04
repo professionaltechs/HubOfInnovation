@@ -18,7 +18,7 @@ const GetIntouch = () => {
         <div className="GetInTouchDetails">
           <Link href="/" ><p className="underline-animation">Mail</p></Link>
           <Link href="https://www.facebook.com/profile.php?id=61562909632776&mibextid=ZbWKwL" target='blank' ><p className="underline-animation">Facebook</p></Link>
-          <Link href="https://www.instagram.com/hubofinnovation?igsh=MTM4amtqcXNpZHpvZQ==" target='blank' ><div class="child child-1">
+          <Link href="https://www.instagram.com/hubofinnovation?igsh=MTM4amtqcXNpZHpvZQ==" target='blank' ><p className="underline-animation">Instagram</p><div class="child child-1">
             <button class="button btn-1">
               <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#1e90ff"><FaXTwitter /></svg>
             </button>

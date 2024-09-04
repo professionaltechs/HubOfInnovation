@@ -6,9 +6,10 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   /* filter: brightness(50%); */
+  padding-right: 100px;
 }
 .AboutUsBanner > h1 {
   color: white;
@@ -50,7 +51,7 @@
   font-weight: 500;
 }
 .AboutUsPortfolioSection{
-    background: url("../Images/banner-01.jpg");
+    background: url("../Images/aboutusbannertopnew.jpg");
     height: 50vh ;
     width: 100%;
     background-size: cover;
